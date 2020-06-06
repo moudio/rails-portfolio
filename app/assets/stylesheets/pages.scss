@@ -14,17 +14,27 @@ nav.main-navigation ul {
 
     }
 
-    .main-navigation li a {
+    .nav-item a, .brand a {
         text-decoration: none;
         color: black;
     }
-.main-navigation li {
+  
+
+
+.nav-item {
     margin: 0 10px;
 }
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
 
 .main-navigation li.brand {
         margin-right: auto;
     }
+  
+
 
 .main-navigation {
     height: 100px;
@@ -67,6 +77,10 @@ p.welcome-message {
     font-weight: 500;
     
 }
+a.view-work-button {
+    text-decoration: none;
+    
+}
 
 .view-work-button:hover {
     color: black; 
@@ -105,4 +119,12 @@ p.welcome-message {
 .social-links i {
     font-size: 40px;
     margin: 0 10px;
+}
+
+.carousel-item {
+    max-height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
 }

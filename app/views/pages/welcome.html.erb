@@ -1,16 +1,8 @@
-<nav class="main-navigation">
-<ul>
-<li class="brand"><a href="#">Mouha</a></li>
-<li><a href="#">Welcome</a></li>
-<li><a href="#">Portfolio</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">About</a></li>
-</ul>
-</nav>
+
 <header class="header">
 <div class="welcome-message-div">
 <p class="welcome-message">Hello, my name is <span class="my-name">Mouhamadou</span> and I am a web developer</p>
-<button class="view-work-button">View my Work</button>
+<%= link_to 'View My Work', portfolio_path, class: 'view-work-button' %> 
 </div>
 </header>
 <div class="welcome-footer">

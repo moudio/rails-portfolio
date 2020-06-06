@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
     def welcome 
     
-    end 
+    end
+    def portfolio
+    end  
 end
