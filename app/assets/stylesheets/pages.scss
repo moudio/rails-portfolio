@@ -11,7 +11,8 @@ nav.main-navigation ul {
     align-items: center;
     font-weight: 500;
     font-size: 20px;
-
+    padding: 0 5px;
+    flex-wrap: wrap;
     }
 
     .nav-item a, .brand a {
@@ -178,4 +179,24 @@ a.view-work-button {
         width: 100%;
         text-align: center;
     }
+}
+
+
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-links a {
+    font-size: 150px;
+    color: black
+
+}
+
+.contact-me-title {
+    width: 70%;
+    margin: 20px auto;
 }
