@@ -3,14 +3,27 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 nav.main-navigation ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     list-style-type: none;
-    max-width: 900px;
+    max-width: 1500px;
     height: 100%;
     margin: 0 auto;
     align-items: center;
     font-weight: 500;
+    font-size: 20px;
 
+    }
+
+    .main-navigation li a {
+        text-decoration: none;
+        color: black;
+    }
+.main-navigation li {
+    margin: 0 10px;
+}
+
+.main-navigation li.brand {
+        margin-right: auto;
     }
 
 .main-navigation {
