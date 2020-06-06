@@ -128,3 +128,54 @@ a.view-work-button {
 .carousel-item img {
     width: 100%;
 }
+
+.about-me-div {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    margin-top: 100px;
+
+}
+
+.about-me-div .content {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about-me-div .picture {
+    width: 35%;
+}
+
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+
+.about-me-div .picture img {
+    width: 100%;
+
+}
+.about-me-div .content .name {
+    background-color: rgba(32, 67, 147, 0.3)
+    
+}
+
+@media (max-width: 950px){
+    .about-me-div .picture {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .about-me-div .content {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+}
