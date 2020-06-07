@@ -19,7 +19,7 @@ nav.main-navigation ul {
         text-decoration: none;
         color: black;
     }
-  
+
 
 
 .nav-item {
@@ -34,7 +34,7 @@ nav.main-navigation ul {
 .main-navigation li.brand {
         margin-right: auto;
     }
-  
+
 
 
 .main-navigation {
@@ -53,7 +53,7 @@ header {
 }
 
 p.welcome-message {
-    color: white; 
+    color: white;
     font-size: 50px;
     font-weight: 500;
     text-align: center;
@@ -76,15 +76,15 @@ p.welcome-message {
     padding: 10px 15px;
     margin-top: 20px;
     font-weight: 500;
-    
+
 }
 a.view-work-button {
     text-decoration: none;
-    
+
 }
 
 .view-work-button:hover {
-    color: black; 
+    color: black;
     background: white;
     border: none;
     opacity: 1;
@@ -109,7 +109,7 @@ a.view-work-button {
 
 .social-links {
     display: flex;
-    align-items: center; 
+    align-items: center;
     width: 100%;
     justify-content: flex-end;
 }
@@ -134,7 +134,7 @@ a.view-work-button {
     display: flex;
     width: 80%;
     flex-wrap: wrap;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 100px;
 
 }
@@ -165,19 +165,27 @@ a.view-work-button {
 }
 .about-me-div .content .name {
     background-color: rgba(32, 67, 147, 0.3)
-    
+
 }
 
 @media (max-width: 950px){
+  .about-me-div {
+    width: 95%;
+  }
     .about-me-div .picture {
         width: 70%;
         margin: 0 auto;
     }
-    
+    .about-me-div h1 {
+      font-size: 35px;
+
+    }
+
     .about-me-div .content {
         margin-top: 0px;
         width: 100%;
         text-align: center;
+        padding: 20px 5px;
     }
 }
 
